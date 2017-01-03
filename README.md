@@ -1,7 +1,7 @@
-# DOF_estimation
+# DOF_estimation (alpha version)
 Degrees of Freedom estimation for climate data
 
-variables need to have dimension (T,X,Y)
+variables needs to have dimension (T,X,Y)
 
 Spatial DOF:
 
