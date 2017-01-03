@@ -38,7 +38,7 @@ def bernoulli_distribution(var,p):
 
 def bernoulli_trial(distribution,n):
     '''draw n times from distribution'''
-    realisation=np.sum(distribution[np.random.randint(low=0,high=distribution.shape[0],size=n)],dtype=int)
+    realisation=np.sum(distribution,dtype=int)
     return(realisation)
 
 def find_m(array,p):
